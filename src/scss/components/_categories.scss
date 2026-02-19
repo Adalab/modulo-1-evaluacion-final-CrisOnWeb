@@ -1,15 +1,17 @@
 .categories {
-  display: grid;
-  grid-template-columns: 1fr;
-  /* Centrar contenido */
-  justify-items: center;
-  gap: 0.25rem;
-  padding-top: 1.25rem;
-  padding-bottom: 2rem;
-
   background-color: var(--color-background);
 
   text-align: center;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Centrar contenido */
+    justify-items: center;
+    gap: 0.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 2rem;
+  }
 
   &__label {
     color: #626262;
@@ -17,6 +19,7 @@
     font-weight: 700;
     font-size: 0.75rem;
   }
+
 
   &__title {
     font-family: var(--font-family-heading);
