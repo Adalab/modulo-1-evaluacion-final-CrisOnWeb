@@ -6,7 +6,8 @@
     align-items: flex-start;
     gap: 0.5rem;
     padding-block: 2rem;
-    padding-inline: 1rem;
+    /* Padding necesario para que el menú no tape el texto */
+    padding-inline: 2.5rem;
   }
 
   &__label {

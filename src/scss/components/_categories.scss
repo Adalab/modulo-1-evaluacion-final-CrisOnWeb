@@ -39,7 +39,7 @@
 
     @media (width > 768px) {
       grid-template-columns: repeat(3, 1fr);
-      gap: 4.5rem;
+      gap: clamp(4.5rem, 12vw, 10rem);
       padding-top: 1.75rem;
 
     }
