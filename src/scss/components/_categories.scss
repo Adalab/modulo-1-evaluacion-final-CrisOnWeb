@@ -39,14 +39,16 @@
 
     @media (width > 768px) {
       grid-template-columns: repeat(3, 1fr);
-      gap: clamp(4.5rem, 12vw, 10rem);
+      gap: clamp(4.5rem, 13vw, 11rem);
       padding-top: 1.75rem;
+      padding-inline: 0.5rem;
 
     }
   }
 
   &__item {
     padding-block: 0.5rem;
+
     list-style-type: none;
   }
 
