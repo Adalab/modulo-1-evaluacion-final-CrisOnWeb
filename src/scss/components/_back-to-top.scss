@@ -1,0 +1,23 @@
+.back-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.813rem;
+  height: 2.813rem;
+  // border: 1px solid #979797;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  /* Otra solución para centrar al ser absolute y no afectar al flujo: con left: 50%; y transform: translateX(-50%); */
+
+  background-color: #FFFFFF;
+
+  &__img {
+    width: 50%;
+  }
+}
