@@ -64,6 +64,11 @@
 
     background-color: #FFFFFF;
 
+    &:hover {
+      animation: shake-down 0.7s ease-in-out;
+
+    }
+
     @media (width > 768px) {
       width: 2.813rem;
       height: 2.813rem;
@@ -74,5 +79,22 @@
   &__img {
     width: 40%;
     transform: translateY(1px);
+  }
+}
+
+@keyframes shake-down {
+
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  25%,
+  75% {
+    transform: translate(0, -10px);
+  }
+
+  50% {
+    transform: translate(0, 10px);
   }
 }

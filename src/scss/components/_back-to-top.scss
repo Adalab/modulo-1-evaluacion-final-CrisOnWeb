@@ -17,7 +17,28 @@
 
   background-color: #FFFFFF;
 
+  &:hover {
+    animation: shake-up 0.7s ease-in-out;
+  }
+
   &__img {
     width: 50%;
+  }
+}
+
+@keyframes shake-up {
+
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  25%,
+  75% {
+    transform: translate(0, 10px);
+  }
+
+  50% {
+    transform: translate(0, -10px);
   }
 }
